@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    
+}
+
+.card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conselhos{
+    margin: 20px;
+    width: 345px;
+    background-color: var(--cor-card);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.id-conselho{
+    margin-top: 30px;
+    color: var(--cor-titulo-conselho);
+    font-family: 'Manrope', sans-serif, monospace;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.descricao-conselho{
+    padding: 23px;
+    font-family: 'Manrope', sans-serif, monospace;
+    font-weight: 800;
+    color: var(--text-color);
+    font-size: 23px;
+    text-align: center;
+}
+
+.divisoria{
+    width: 80%;
+}
+
+.botao-atualizar-conselho{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--cor-botao);
+    transform: translateY(50%);
+
+}
+
+.botao-atualizar-conselho:hover{    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--cor-botao);
+}
